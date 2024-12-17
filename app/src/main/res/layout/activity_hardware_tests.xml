@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hardware Tests"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Vibration Motor Test Button -->
+    <Button
+        android:id="@+id/vibrationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Vibration Motor"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Flashlight Test Button -->
+    <Button
+        android:id="@+id/flashlightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Flashlight"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Speaker Test Button -->
+    <Button
+        android:id="@+id/speakerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Speaker"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Microphone Test Button -->
+    <Button
+        android:id="@+id/microphoneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Microphone"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Proximity Sensor Test Button -->
+    <Button
+        android:id="@+id/proximityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Proximity Sensor"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Ambient Light Sensor Test Button -->
+    <Button
+        android:id="@+id/lightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Ambient Light Sensor"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Accelerometer Test Button -->
+    <Button
+        android:id="@+id/accelerometerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Accelerometer"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/screenTestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Screen"
+        android:layout_marginBottom="10dp"/>
+
+
+    <!-- Result Display -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test results will appear here."
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+</LinearLayout>

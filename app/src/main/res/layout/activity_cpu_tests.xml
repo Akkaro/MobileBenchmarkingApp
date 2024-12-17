@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Test Buttons -->
+    <Button
+        android:id="@+id/simpleArithmeticButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Arithmetic Test" />
+
+    <Button
+        android:id="@+id/floatingPointButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Floating Point Precision Test" />
+
+    <Button
+        android:id="@+id/sortingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sorting Test" />
+
+    <Button
+        android:id="@+id/primeNumbersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prime Number Test" />
+
+    <!-- Display the result -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will be displayed here"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

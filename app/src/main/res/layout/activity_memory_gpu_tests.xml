@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/memoryTestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memory Test" />
+
+    <Button
+        android:id="@+id/gpuTestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPU Test" />
+
+    <Button
+        android:id="@+id/btn_gpu_pixel_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run GPU Pixel Test" />
+
+
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Result will be displayed here"
+        android:textSize="16sp" />
+</LinearLayout>

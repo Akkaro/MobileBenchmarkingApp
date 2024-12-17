@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="vibrationButton" type="id" />
+    <item name="flashlightButton" type="id" />
+    <item name="speakerButton" type="id" />
+    <item name="microphoneButton" type="id" />
+    <item name="proximityButton" type="id" />
+    <item name="lightButton" type="id" />
+    <item name="accelerometerButton" type="id" />
+    <item name="titleTextView" type="id" />
+</resources>
